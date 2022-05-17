@@ -37,7 +37,7 @@
         "files": [
           "api/**.md",
           "admin/**.md",
-          "articles/**.md",
+          "overview/**.md",
           "**toc.yml",
           "*.md"
         ],
@@ -54,9 +54,9 @@
           "admin/**.png",
           "admin/**.jpg",
           "admin/**.svg",
-          "articles/**.png",
-          "articles/**.jpg",
-          "articles/**.svg",
+          "overview/**.png",
+          "overview/**.jpg",
+          "overview/**.svg",
           "apidoc/**.png",
           "apidoc/**.jpg",
           "apidoc/**.svg"

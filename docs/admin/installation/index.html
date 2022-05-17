@@ -56,7 +56,7 @@
                 
                 <ul class="nav level1 navbar-nav">
                       <li>
-                          <a href="../../articles/index.html" title="Articles">Articles</a>
+                          <a href="../../overview/index.html" title="Overview">Overview</a>
                       </li>
                       <li class="active">
                           <a href="../../admin/index.html" title="Administration">Administration</a>
@@ -99,6 +99,7 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="installation">Installation</h1>
 
+<p><img src="assets/installation-banner.png" alt="installationbanner"></p>
 <h2 id="install-an-official-release-on-iis">Install an Official Release on IIS</h2>
 <p>The <a href="https://github.com/oqtane/oqtane.framework/releases">Official Oqtane Relases are found on Github</a></p>
 <p>Read the <a href="https://www.oqtane.org/Resources/Blog/PostId/542/installing-oqtane-on-iis">detailed instructions for installing Oqtane on IIS</a></p>
@@ -108,7 +109,7 @@
 <p>If you have already installed a previous version of Oqtane and you wish to do a clean database install, simply reset the <code>DefaultConnection</code> value in the <code>Oqtane.Server\appsettings.json</code> file to &quot;&quot;. 
 This will trigger a re-install when you run the application which will execute the database installation scripts.</p>
 <h2 id="install-oqtane-for-development">Install Oqtane for Development</h2>
-<h3 id="oqtane-version-3-net-6">Oqtane Version 3 (.net 6)</h3>
+<h3 id="oqtane-version-3-net-6">Oqtane Version 3 (.NET 6)</h3>
 <ol>
 <li><p>Install <strong><a href="https://dotnet.microsoft.com/download/dotnet/6.0">.NET 6 SDK</a></strong></p>
 </li>
@@ -122,7 +123,8 @@ Oqtane works with ALL editions of Visual Studio from Community to Enterprise.</p
 <li><p>Make sure you specify <strong>Oqtane.Server</strong> as the Startup Project and then Run the application.</p>
 </li>
 </ol>
-<h3 id="oqtane-version-2-net-5">Oqtane Version 2 (.net 5)</h3>
+<h3 id="oqtane-version-2-net-5">Oqtane Version 2 (.NET 5)</h3>
+<p><strong>Note that Microsoft support for .NET 5 ended on May 8, 2022</strong> </p>
 <ol>
 <li><p>Install the latest <a href="https://dotnet.microsoft.com/download/dotnet/5.0">.NET 5 SDK (v5.0.100)</a></p>
 </li>
@@ -139,7 +141,8 @@ you must also install the <strong>.NET desktop development workload</strong>.</p
 <li><p>Make sure you specify Oqtane.Server as the Startup Project and then Run the application.</p>
 </li>
 </ol>
-<h3 id="oqtane-version-1-net-core-3">Oqtane Version 1 (.net core 3)</h3>
+<h3 id="oqtane-version-1-net-core-3">Oqtane Version 1 (.NET core 3)</h3>
+<p><strong>Note that Microsoft support for .NET 3.1 will end on December 13, 2022</strong> </p>
 <ol>
 <li><p>Install <a href="https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-3.1.300-windows-x64-installer">.NET Core 3.1 SDK (v3.1.300)</a></p>
 </li>
@@ -159,9 +162,6 @@ Make sure you specify Oqtane.Server as the Startup Project and then Run the appl
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/oqtane/oqtane.docs/blob/master/Oqtane.Docs/admin/installation/index.md/#L1" class="contribution-link">Improve this Doc</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

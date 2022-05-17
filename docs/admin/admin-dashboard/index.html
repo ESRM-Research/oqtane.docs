@@ -56,7 +56,7 @@
                 
                 <ul class="nav level1 navbar-nav">
                       <li>
-                          <a href="../../articles/index.html" title="Articles">Articles</a>
+                          <a href="../../overview/index.html" title="Overview">Overview</a>
                       </li>
                       <li class="active">
                           <a href="../../admin/index.html" title="Administration">Administration</a>
@@ -99,19 +99,51 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="admin-dashboard">Admin Dashboard</h1>
 
-<p>The admin dashboard has a variety of different tools for administrators to use in order to better manage their website and to add a great amount of functionality to the website. By selecting the gear icon in the top right of a page while being on an administrator account, then selecting the admin dashboard option at the top of the control panel, which will bring up a menu with a variety of options that can be selected.</p>
-<p><img src="assets/admin-dash.png" alt="adminDash"></p>
-<p>The default options in the dashboard that Oqtane offers for an administrator to use are:</p>
+<p>To view the Admin Dashboard, do the following. </p>
+<ol>
+<li>Log into an account with either a Host Administration or Site Administration role </li>
+<li>Select the gear icon in the top right of the page. This should bring up the <a href="../control-panel">Control Panel</a>.</li>
+<li>From the Control Panel, click the Admin Dashboard button at the top to bring up the Admin Dashboard panel, as shown below. </li>
+</ol>
+<p>
+Alternatively, instead of steps 2 and 3, you can open the URL <a href="https://example.com/admin">https://example.com/admin</a>, where you should replace <a href="https://example.com">https://example.com</a> with the URL of <em>your</em> website. 
+</p>
+<br>
+
+<img src="assets/admin-dash.png" alt="adminDash">
+<p align="center">Admin Dashboard for the Host Administration Role</p>
+
+<p>
+The Admin Dashboard displays icons for different administration tools. The tools for the Site Adminstration role are a subset of the tools displayed for the Host Administration role. 
+</p>
+
+<h3 id="site-administrator">Site Administrator</h3>
+<p>The default tools available for a Site Administrator include the following. </p>
 <ul>
-<li>Site Settings: Which provides a variety of settings to be able to modify and personalize your website with more information in the <a href="site-settings.html">site settings</a>.</li>
-<li>Page Management: Which provides a list of all pages on your website and provides the ability to to manipulate them in a variety of ways with more info on <a href="page-management.html">page management</a>.</li>
-<li>User Management: Which allows for the additional and modification of user accounts with more info on <a href="user-management.html">user management</a>.</li>
-<li>Profile Management: Which lets you specify what informational fields are available for a user to both optionally have and must have on their acoount with more info on <a href="profile-management.html">profile management</a>.</li>
-<li>Role Management: Which specifies what type of security group the user&#39;s account belongs in like giving an account administrative rights, with more info on <a href="role-management.html">role management</a>.</li>
-<li>File Management: Which allows the uploading of files like images to be be inserted into pages with more info on <a href="file-management.html">file management</a>.</li>
-<li>Recycle Bin: Which allows for the restoration or full deletion of pages that were previously deleted with more info on <a href="recycle-bin.html">recycle bin</a>.
-If you want to add new options to the admin dashboard, then that can be done by creating a new page either in the <a href="../control-panel/control-page.html">control panel</a> or in the admin dashboard&#39;s <a href="page-management.html">page management</a> and specifying that you want &quot;Admin&quot; as the parent of the new page.</li>
+<li><strong><a href="../site-administration/site-settings.html">Site Settings</a></strong> - Sets the website name, logo, favicon, theme, SMTP host, progressive web app settings, and more.</li>
+<li><strong><a href="../site-administration/page-management.html">Page Management</a></strong> - Lists all the website pages and offers add, edit, and delete capabilities.  </li>
+<li><strong><a href="../site-administration/user-management.html">User Management</a></strong> - Lists all the website users and offers add, edit, delete, and role setting capabilities, a global search function, and editable user profiles. </li>
+<li><strong><a href="../site-administration/profile-management.html">Profile Management</a></strong> - Specifies custom fields for the user profiles.</li>
+<li><strong><a href="../site-administration/role-management.html">Role Management</a></strong> - Specifies custom roles and role permissions for creating and editing pages and modules. </li>
+<li><strong><a href="../site-administration/file-management.html">File Management</a></strong> - Offers folder add and edit capabilities. Offers file upload, delete and edit capabilities. </li>
+<li><strong><a href="../site-administration/recycle-bin.html">Recycle Bin</a></strong> - Offers features similar to the recycle bin on a desktop operating system. Used for deleted pages and modules. </li>
+<li><strong><a href="../site-administration/url-mappings.html">Url Mappings</a></strong> - Displays a list of mapped URLs or broken URLs.</li>
+<li><strong><a href="../site-administration/visitor-management">Visitor Management</a></strong> - Displays records of login metadata for all website visitors.</li>
+<li><strong><a href="../site-administration/language-management">Language Management</a></strong> - Manages language translations used on pages of the site.</li>
 </ul>
+<h3 id="host-administrator">Host Administrator</h3>
+<p>In addition to the tools shown for the Site Administrator, the default Admin Panel for a Host Administrator displays the following tools. </p>
+<ul>
+<li><strong><a href="../host-administration/event-log.html">Event Log</a></strong> - Displays a log of major website events, filterable by information level (trace, debug, error, etc.) and event type (create, read, update, etc.)</li>
+<li><strong><a href="../host-administration/site-management.html">Site Management</a></strong> - Displays a list of current sites and offers the ability to add new sites or edit sites for this Oqtane instance. </li>
+<li><strong><a href="../host-administration/module-management.html">Module Management</a></strong> - Displays a list of all installed modules with edit capabilities. Offers the ability to install or create new modules.</li>
+<li><strong><a href="../host-administration/theme-management.html">Theme Management</a></strong> - Displays a list of all installed themes with edit capabilities. Offers the ability to install or create new themes.</li>
+<li><strong><a href="../host-administration/scheduled-jobs.html">Scheduled Jobs</a></strong> - Displays a list of all scheduled jobs and offers edit, view, and stop capabilities.</li>
+<li><strong><a href="../host-administration/sql-management.html">Sql Management</a></strong> - Provides the ability to execute SQL queries against the database of the installed websites.</li>
+<li><strong><a href="../host-administration/system-info.html">System Info</a></strong> - Provides read-only metadata about the system hosting Oqtane. Offers the ability to set values for logging, notification, error detail levels, and more. </li>
+<li><strong><a href="../host-administration/system-update.html">System Update</a></strong> - Provides the ability to install the latest system updates for this Oqtane instance. </li>
+</ul>
+<p>If you want to add new options to the admin dashboard, then that can be done by creating a new page either in the <a href="../control-panel/control-page.html">control panel</a> or in the admin dashboard&#39;s <a href="page-management.md">page management</a> and specifying that you want &quot;Admin&quot; as the parent of the new page.</p>
 </article>
           </div>
           
@@ -119,9 +151,6 @@ If you want to add new options to the admin dashboard, then that can be done by 
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/oqtane/oqtane.docs/blob/master/Oqtane.Docs/admin/admin-dashboard/index.md/#L1" class="contribution-link">Improve this Doc</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

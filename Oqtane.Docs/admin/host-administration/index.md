@@ -1,5 +1,7 @@
 # Host Administration
 
+![hostadminbanner](./assets/host-admin-banner.png)
+
 The host user has the highest possible level of permissions in a Oqtane instance and can manage any individual site, set defaults for the creation of new sites, and manage additional configurations that support all sites.
 
 An Oqtane site administrator is primarily concerned with the look, feel, functionality, and content of a site. A host is more concerned with the configuration, performance, monitoring, and support of the entire Oqtane instance. As the Oqtane host (or any user with superuser permissions), you need to have a working grasp of all the features and configuration options available to you.

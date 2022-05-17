@@ -56,7 +56,7 @@
                 
                 <ul class="nav level1 navbar-nav">
                       <li>
-                          <a href="../../articles/index.html" title="Articles">Articles</a>
+                          <a href="../../overview/index.html" title="Overview">Overview</a>
                       </li>
                       <li class="active">
                           <a href="../../admin/index.html" title="Administration">Administration</a>
@@ -99,22 +99,36 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="adding-modules-to-a-page">Adding Modules to a Page</h1>
 
-<p>In order to add a module to a page, simply open the control panel with the gear icon in the top right of a page and in the <a href="../control-panel/modules.html">module management feature</a> there is the ability to select a new module from the options of:</p>
+<p>To add a module to a page, open the <a href="../admin-navigation/control-panel.html">control panel</a>. The bottom section of the control panel provides three module management drop-downs along with some other text fields. The choices for these drop downs and text fields will determine the module and its settings that are added to the current page when the &quot;Add Module to Page&quot; button is clicked. </p>
+<p>As shown in the annotated screenshot below, for the three drop downs starting from the top, we will call them the &quot;Mode&quot;, &quot;Group&quot; and &quot;Module&quot; choices. The first drop-down &quot;Mode&quot; choice will determine the overall settings of the module that is added to the page. Options for first &quot;Mode&quot; drop-down are as follows. </p>
 <ul>
-<li>Admin Module: These are only available to people within the administrator role and there are many more default modules available to put onto your webpages.</li>
-<li>Common Module: These are available both to administrators and to registered users to be able to use on pages that are specified as personilizable, meaning users can modify them as they see fit and they are unique and only viewable to registered users.</li>
-<li>Developer Module: This feature is for placing a module creator onto a page which will provide you with useful pre-built structure and methods for writing code for your own modules.</li>
+<li><strong>Add New Module</strong> - Add a module with no preset values except what is set in the control panel</li>
+<li><strong>Add Existing Module</strong> - Add a module from another page using its already preset values</li>
 </ul>
-<p>There are also features after selecting the module that you would like which are the:</p>
+<p><br></p>
+<p><img src="assets/cp-module-management.png" alt="cp-modules-management"></p>
+<h3 id="add-new-module-option">Add New Module Option</h3>
+<p>When the &quot;Add New Module&quot; is selected from the first &quot;Mode&quot; drop-down, then the options for the second &quot;Group&quot; drop down will be <em>Admin Modules</em>, <em>Common Modules</em>, and <em>Developer Modules</em>. Once a second &quot;Group&quot; drop-down choice is made, then only the <a href="./default-modules.html">modules that belong to that group</a> are displayed in the third &quot;Module&quot; drop-down. </p>
+<p>Whatever module is then selected in the third &quot;Module&quot; drop-down will be the module that is added when the content manager clicks the &quot;Add Module to Page&quot; button at the bottom of the control panel. </p>
+<p>The text boxes after the drop-downs allow you to set the following fields for the module. </p>
 <ul>
-<li>Title: Which is what will be displayed directly above the module as its title, if nothing is selected then the module&#39;s name will be put as the title.</li>
-<li>Pane: Select which content pane you want the module to go inside of. Panes are made visible with the <a href="../site-administration/content-editor.html">content editor</a>.</li>
-<li>Container: Select if you would like to have a title displayed above the module or not have one.</li>
+<li><strong>Title</strong> - Set the text that will be displayed directly above the module. If this is left blank then the module&#39;s name will be used as the title.</li>
+<li><strong>Pane</strong> - Select which content pane you want the module to go inside of. Panes should be visible when the page is in <a href="../pages/editing-page.html">edit mode</a>.</li>
+<li><strong>Container</strong> - Select if you would like to have a title displayed above the module or not have one.</li>
+<li><strong>Visibility</strong> - Options are &quot;Page Editors Only&quot; or &quot;Same As Page&quot;</li>
 </ul>
-<p><img src="assets/adding-modules.png" alt="adding-modules"></p>
-<h3 id="adding-one-module-across-multiple-pages">Adding One Module Across Multiple Pages</h3>
-<p>As noted earlier, modules are reusable pieces of functionality, and as such a single module can be inserted across multiple pages in a site. Say, for example, you have an HTML module that holds a banner image and you want that banner image to also exist on five specific pages in your site. Instead of adding a new module to all five of those pages and then inserting the same image, you can simply go into the Control Panel and then click Add an Existing Module to the page. Adding already existing modules or sharing modules across multiple pages makes managing content that&#39;s repeated much more efficient. A content manager can then make edits in one module and instantly have those edits reflected across every page on which the module is shared.</p>
-<p>When a user hovers over the Modules menu item just below the Add New Module option is the Add Existing Module option. This is the option you select when you want to add a module that already exists in the site to a different page. When opting to use Add Existing Module, you must first select the page to copy a module from, which will populate the drop-down list of modules. You can then follow the same process of adding a module to the page.</p>
+<h3 id="add-existing-module-option">Add Existing Module Option</h3>
+<p>When the &quot;Add Existing Module&quot; is selected from the first &quot;Mode&quot; drop-down, then the options for the second &quot;Group&quot; drop down will display all of the current pages in the site. Choosing any page in this second &quot;Group&quot; drop down will cause only the modules that are used in the selected page to be displayed in the third &quot;Module&quot; drop-down. </p>
+<p>Whatever module is then selected in the third &quot;Module&quot; drop-down will be the module that is added when the content manager clicks the &quot;Add Module to Page&quot; button at the bottom of the control panel. </p>
+<p><strong>The key difference here is that the values that were used for that module on the existing page will also be used for the module being inserted on the current page. In other words, inserting the module in this page is like using a reference to the same module on the other page.</strong></p>
+<p>This option can increase efficiency and good practices for many situations. Say, for example, you have an HTML module that holds a banner image and you want that banner image to also exist on five specific pages in your site. Instead of adding a new module to all five of those pages and then inserting the same image, you can simply go into the Module Management section of the Control Panel and click &quot;Add an Existing Module&quot; and select the existing module on an existing page. A content manager can then make edits in one module and instantly have those edits reflected across every page on which the module is shared. </p>
+<p>The text boxes after the drop-downs allow you to set the following fields for the module. </p>
+<ul>
+<li><strong>Title</strong> - Set the text that will be displayed directly above the module. This text will override the title of the existing module. If this is left blank then the referenced module&#39;s title will be used.</li>
+<li><strong>Pane</strong> - Select which content pane you want the module to go inside of. Panes should be visible when the page is in <a href="../pages/edit-page.html">edit mode</a>.</li>
+<li><strong>Container</strong> - Select if you would like to have a title displayed above the module or not have one.</li>
+<li><strong>Visibility</strong> - Options are &quot;Page Editors Only&quot; or &quot;Same As Page&quot;</li>
+</ul>
 </article>
           </div>
           
@@ -122,9 +136,6 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/oqtane/oqtane.docs/blob/master/Oqtane.Docs/admin/modules/adding-modules.md/#L1" class="contribution-link">Improve this Doc</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

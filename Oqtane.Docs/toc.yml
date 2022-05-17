@@ -1,6 +1,6 @@
 
-- name: Articles
-  href: articles/
+- name: Overview
+  href: overview/
 - name: Administration
   href: admin/
 - name: API Documentation

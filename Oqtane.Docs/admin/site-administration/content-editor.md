@@ -11,7 +11,7 @@ The options for the module's menu are:
     * Title: The title displayed above the module.
     * Container: Specify if you want the title to be displayed for the module.
     * Display on All Pages: Choose whether you want this module to be on every page on the site.
-    * Page: Chnage the page that the module is displayed on.
+    * Page: Change the page that the module is displayed on.
     * Permissions: Specify either what [roles](~/admin/admin-dashboard/role-management.md) or individual users should be able to view or edit the page.
 * Unpublish Module: Hides the module from everyone, but the site administrators for instances where you want to edit modules.
 * Delete Module: Deletes the module from the page.
@@ -21,6 +21,7 @@ The options for the module's menu are:
 * Move Up: Moves the module up to be above the module above it.
 * Move Down: Move the module down below the module beneath it.
 * Move to Bottom: Moves the module to the bottom of the page, below all other modules.
+
 If the page has the layout for multiple panes, which will allows for three center rows and a top and bottom row that can have content inserted into them, then there will be additional options available which are:
 * Move to Top Pane: Moves the module to the content pane at the top of the page.
 * Move to Left Pane: Moves the module to the left-most column.

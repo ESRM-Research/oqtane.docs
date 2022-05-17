@@ -99,23 +99,34 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="site-settings">Site Settings</h1>
 
-<p>The Site Settings feature contains a large number of settings that you canuse to perform high-level administrative configuration for your site. The Settings mostly contains set-it-and-forget it options that should be managed once when you build your site. Some of these settings include the default look and feel for new pages created on your site, your site logo, and default metadata for pages.The main parts of the settings are basic settings, SMTP configuration, and progressive web app configuration.</p>
+<p>The Site Settings apply to one given website within Oqtane. The settings are divided into the following sections. </p>
+<ul>
+<li><strong><a href="#Basic">Basic Settings</a></strong> - </li>
+<li><strong><a href="#SMTP">SMTP Settings</a></strong> - </li>
+<li><strong><a href="#PWA">PWA Settings</a></strong> - </li>
+<li><strong><a href="#Aliases">Aliases</a></strong> - </li>
+<li><strong><a href="#Hosting">Hosting Model</a></strong> - </li>
+<li><strong><a href="#Tenant">Tenant Information</a></strong> - </li>
+</ul>
+<p>feature contains a large number of settings that you canuse to perform high-level administrative configuration for your site. The Settings mostly contains set-it-and-forget it options that should be managed once when you build your site. Some of these settings include the default look and feel for new pages created on your site, your site logo, and default metadata for pages.The main parts of the settings are basic settings, SMTP configuration, and progressive web app configuration.</p>
+<p><a id="Basic"></a></p>
 <h3 id="basic-settings">Basic Settings</h3>
 <p>Basic Settings mostly contains set-it-and-forget it options that should be managed once when you build your site.</p>
 <ul>
-<li>Name: What you want to call the website.</li>
-<li>Tenant: The name of the database you wan the site to use.</li>
-<li>Aliases: The name that will appear for the sites URL.</li>
-<li>Logo: The logo that will appear in the navigation bar.</li>
-<li>Favicon: Enter a favicon address or another icon address to have a default icon to appear beside each page in the navigation bar.</li>
-<li>Default Theme: Choose a default theme tht will give a different color scheme and structure.</li>
-<li>Default Layout: Choose how many columns a page has by default.
+<li><strong>Name</strong> What you want to call the website.</li>
+<li><strong>Tenant</strong> The name of the database you wan the site to use.</li>
+<li><strong>Aliases</strong> The name that will appear for the sites URL.</li>
+<li><strong>Logo</strong> The logo that will appear in the navigation bar.</li>
+<li><strong>Favicon</strong> Enter a favicon address or another icon address to have a default icon to appear beside each page in the navigation bar.</li>
+<li><strong>Default Theme</strong> Choose a default theme tht will give a different color scheme and structure.</li>
+<li><strong>Default Layout</strong> Choose how many columns a page has by default.
 <img src="assets/site-settings-1.png" alt="site-settingss1"></li>
-<li>Default Container: Choose if you want titles to appear about each module by default.</li>
-<li>Allow User Registration: Should users be able to create their own accounts or should only administrators be able to create accounts.</li>
-<li>Is Deleted: Select whether you want to delete this site.
+<li><strong>Default Container</strong> Choose if you want titles to appear about each module by default.</li>
+<li><strong>Allow User Registration</strong> Should users be able to create their own accounts or should only administrators be able to create accounts.</li>
+<li><strong>Is Deleted</strong> Select whether you want to delete this site.
 <img src="assets/site-settings-2.png" alt="site-settings-2"></li>
 </ul>
+<p><a id="SMTP"></a></p>
 <h3 id="smtp-server-secure-mail-transfer-protocol">SMTP Server (Secure Mail Transfer Protocol)</h3>
 <p>The Oqtane instance sends outbound email for a variety of reasons, from the host or site admin or in the form of password reminders, event notifications, newsletters, or other business-specific use cases. A valid SMTP server is required for this to work; you should consult your network administrator for the appropriate credentials to use in a production configuration. Most non-Exchange Server SMTP hosts will require “Basic” authentication and a valid username/password combination. Some will also require that SSL be enabled.</p>
 <ul>
@@ -126,6 +137,7 @@
 <li>Password: Enter the password for the SMTP server you are accessing.
 <img src="assets/smtp-settings.png" alt="smtp-settings"></li>
 </ul>
+<p><a id="PWA"></a></p>
 <h3 id="progressive-web-application-settings">Progressive Web Application Settings</h3>
 <ul>
 <li>Is Enabled: Choose whether or not you want the site to be set up as a progressive web application.</li>
@@ -133,6 +145,12 @@
 <li>Splash Icon: Select a PNG image that is 512 X 512 pixels which will appear on the screen while the application is loading.
 <img src="assets/pwa-settings.png" alt="pwa-settings"></li>
 </ul>
+<p><a id="Aliases"></a></p>
+<h3 id="aliases">Aliases</h3>
+<p><a id="Hosting"></a></p>
+<h3 id="hosting-model">Hosting Model</h3>
+<p><a id="Tenant"></a></p>
+<h3 id="tenant-information">Tenant Information</h3>
 </article>
           </div>
           
@@ -140,9 +158,6 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/oqtane/oqtane.docs/blob/master/Oqtane.Docs/admin/admin-dashboard/site-settings.md/#L1" class="contribution-link">Improve this Doc</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

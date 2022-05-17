@@ -1,12 +1,12 @@
-# Oqtane Documentation 3.0.2
+# Oqtane Documentation 3.1.1
 
 > Oqtane is _the_ **Modular Application Framework for Blazor**
 >  
-> Modern, Flexible, and Open Source - running on .net 6.0!
+> Modern, Flexible, and Open Source - running on .NET 6.0!
 
 ## Documentation Contents
 
-1. In [Articles](./articles/index.md) you'll find background infos etc.
-1. The [Administration Manuals](./admin/index.md) is WIP
+1. In the [Overview](./overview/index.md) you'll find information about the project, concepts, building the documentation, and article and video links
+1. The [Administration Manuals](./admin/index.md) you'll find instructions for administrators
 1. In the [API Documentation](./api/index.md) you'll find all the APIs
-1. To work on the docs, better read up on [how the docs work](./articles/documentation/index.md)
+1. To work on the docs, read up on [how the docs work](./overview/documentation/index.md)

@@ -58,7 +58,7 @@
                 
                 <ul class="nav level1 navbar-nav">
                       <li>
-                          <a href="../articles/index.html" title="Articles">Articles</a>
+                          <a href="../overview/index.html" title="Overview">Overview</a>
                       </li>
                       <li>
                           <a href="../admin/index.html" title="Administration">Administration</a>
@@ -122,20 +122,15 @@
   </div>
   <h3 id="constructors">Constructors
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Repository_UserRepository__ctor_Oqtane_Repository_TenantDBContext_.md&amp;value=---%0Auid%3A%20Oqtane.Repository.UserRepository.%23ctor(Oqtane.Repository.TenantDBContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Server/Repository/UserRepository.cs/#L12">View Source</a>
-  </span>
+  
+  
   <a id="Oqtane_Repository_UserRepository__ctor_" data-uid="Oqtane.Repository.UserRepository.#ctor*"></a>
-  <h4 id="Oqtane_Repository_UserRepository__ctor_Oqtane_Repository_TenantDBContext_" data-uid="Oqtane.Repository.UserRepository.#ctor(Oqtane.Repository.TenantDBContext)">UserRepository(TenantDBContext)</h4>
+  <h4 id="Oqtane_Repository_UserRepository__ctor_Oqtane_Repository_TenantDBContext_Oqtane_Repository_IFolderRepository_Oqtane_Repository_IRoleRepository_Oqtane_Repository_IUserRoleRepository_" data-uid="Oqtane.Repository.UserRepository.#ctor(Oqtane.Repository.TenantDBContext,Oqtane.Repository.IFolderRepository,Oqtane.Repository.IRoleRepository,Oqtane.Repository.IUserRoleRepository)">UserRepository(TenantDBContext, IFolderRepository, IRoleRepository, IUserRoleRepository)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UserRepository(TenantDBContext context)</code></pre>
+    <pre><code class="lang-csharp hljs">public UserRepository(TenantDBContext context, IFolderRepository folders, IRoleRepository roles, IUserRoleRepository userroles)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -152,17 +147,27 @@
         <td><span class="parametername">context</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><a class="xref" href="Oqtane.Repository.IFolderRepository.html">IFolderRepository</a></td>
+        <td><span class="parametername">folders</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Oqtane.Repository.IRoleRepository.html">IRoleRepository</a></td>
+        <td><span class="parametername">roles</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Oqtane.Repository.IUserRoleRepository.html">IUserRoleRepository</a></td>
+        <td><span class="parametername">userroles</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Repository_UserRepository_AddUser_Oqtane_Models_User_.md&amp;value=---%0Auid%3A%20Oqtane.Repository.UserRepository.AddUser(Oqtane.Models.User)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Server/Repository/UserRepository.cs/#L22">View Source</a>
-  </span>
+  
+  
   <a id="Oqtane_Repository_UserRepository_AddUser_" data-uid="Oqtane.Repository.UserRepository.AddUser*"></a>
   <h4 id="Oqtane_Repository_UserRepository_AddUser_Oqtane_Models_User_" data-uid="Oqtane.Repository.UserRepository.AddUser(Oqtane.Models.User)">AddUser(User)</h4>
   <div class="markdown level1 summary"></div>
@@ -203,13 +208,8 @@
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Repository_UserRepository_DeleteUser_System_Int32_.md&amp;value=---%0Auid%3A%20Oqtane.Repository.UserRepository.DeleteUser(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Server/Repository/UserRepository.cs/#L58">View Source</a>
-  </span>
+  
+  
   <a id="Oqtane_Repository_UserRepository_DeleteUser_" data-uid="Oqtane.Repository.UserRepository.DeleteUser*"></a>
   <h4 id="Oqtane_Repository_UserRepository_DeleteUser_System_Int32_" data-uid="Oqtane.Repository.UserRepository.DeleteUser(System.Int32)">DeleteUser(Int32)</h4>
   <div class="markdown level1 summary"></div>
@@ -235,13 +235,8 @@
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Repository_UserRepository_GetUser_System_Int32_.md&amp;value=---%0Auid%3A%20Oqtane.Repository.UserRepository.GetUser(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Server/Repository/UserRepository.cs/#L36">View Source</a>
-  </span>
+  
+  
   <a id="Oqtane_Repository_UserRepository_GetUser_" data-uid="Oqtane.Repository.UserRepository.GetUser*"></a>
   <h4 id="Oqtane_Repository_UserRepository_GetUser_System_Int32_" data-uid="Oqtane.Repository.UserRepository.GetUser(System.Int32)">GetUser(Int32)</h4>
   <div class="markdown level1 summary"></div>
@@ -282,13 +277,8 @@
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Repository_UserRepository_GetUser_System_Int32_System_Boolean_.md&amp;value=---%0Auid%3A%20Oqtane.Repository.UserRepository.GetUser(System.Int32%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Server/Repository/UserRepository.cs/#L41">View Source</a>
-  </span>
+  
+  
   <a id="Oqtane_Repository_UserRepository_GetUser_" data-uid="Oqtane.Repository.UserRepository.GetUser*"></a>
   <h4 id="Oqtane_Repository_UserRepository_GetUser_System_Int32_System_Boolean_" data-uid="Oqtane.Repository.UserRepository.GetUser(System.Int32,System.Boolean)">GetUser(Int32, Boolean)</h4>
   <div class="markdown level1 summary"></div>
@@ -334,13 +324,8 @@
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Repository_UserRepository_GetUser_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Repository.UserRepository.GetUser(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Server/Repository/UserRepository.cs/#L53">View Source</a>
-  </span>
+  
+  
   <a id="Oqtane_Repository_UserRepository_GetUser_" data-uid="Oqtane.Repository.UserRepository.GetUser*"></a>
   <h4 id="Oqtane_Repository_UserRepository_GetUser_System_String_" data-uid="Oqtane.Repository.UserRepository.GetUser(System.String)">GetUser(String)</h4>
   <div class="markdown level1 summary"></div>
@@ -381,13 +366,8 @@
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Repository_UserRepository_GetUsers.md&amp;value=---%0Auid%3A%20Oqtane.Repository.UserRepository.GetUsers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Server/Repository/UserRepository.cs/#L17">View Source</a>
-  </span>
+  
+  
   <a id="Oqtane_Repository_UserRepository_GetUsers_" data-uid="Oqtane.Repository.UserRepository.GetUsers*"></a>
   <h4 id="Oqtane_Repository_UserRepository_GetUsers" data-uid="Oqtane.Repository.UserRepository.GetUsers">GetUsers()</h4>
   <div class="markdown level1 summary"></div>
@@ -411,13 +391,8 @@
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Repository_UserRepository_UpdateUser_Oqtane_Models_User_.md&amp;value=---%0Auid%3A%20Oqtane.Repository.UserRepository.UpdateUser(Oqtane.Models.User)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Server/Repository/UserRepository.cs/#L29">View Source</a>
-  </span>
+  
+  
   <a id="Oqtane_Repository_UserRepository_UpdateUser_" data-uid="Oqtane.Repository.UserRepository.UpdateUser*"></a>
   <h4 id="Oqtane_Repository_UserRepository_UpdateUser_Oqtane_Models_User_" data-uid="Oqtane.Repository.UserRepository.UpdateUser(Oqtane.Models.User)">UpdateUser(User)</h4>
   <div class="markdown level1 summary"></div>
@@ -469,12 +444,6 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Repository_UserRepository.md&amp;value=---%0Auid%3A%20Oqtane.Repository.UserRepository%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Server/Repository/UserRepository.cs/#L8" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

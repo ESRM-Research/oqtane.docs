@@ -58,7 +58,7 @@
                 
                 <ul class="nav level1 navbar-nav">
                       <li>
-                          <a href="../articles/index.html" title="Articles">Articles</a>
+                          <a href="../overview/index.html" title="Overview">Overview</a>
                       </li>
                       <li>
                           <a href="../admin/index.html" title="Administration">Administration</a>
@@ -122,20 +122,15 @@
   </div>
   <h3 id="constructors">Constructors
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Infrastructure_LogManager__ctor_Oqtane_Repository_ILogRepository_Oqtane_Infrastructure_ITenantManager_Microsoft_Extensions_Configuration_IConfigurationRoot_Oqtane_Security_IUserPermissions_Microsoft_AspNetCore_Http_IHttpContextAccessor_.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.LogManager.%23ctor(Oqtane.Repository.ILogRepository%2COqtane.Infrastructure.ITenantManager%2CMicrosoft.Extensions.Configuration.IConfigurationRoot%2COqtane.Security.IUserPermissions%2CMicrosoft.AspNetCore.Http.IHttpContextAccessor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Server/Infrastructure/LogManager.cs/#L22">View Source</a>
-  </span>
+  
+  
   <a id="Oqtane_Infrastructure_LogManager__ctor_" data-uid="Oqtane.Infrastructure.LogManager.#ctor*"></a>
-  <h4 id="Oqtane_Infrastructure_LogManager__ctor_Oqtane_Repository_ILogRepository_Oqtane_Infrastructure_ITenantManager_Microsoft_Extensions_Configuration_IConfigurationRoot_Oqtane_Security_IUserPermissions_Microsoft_AspNetCore_Http_IHttpContextAccessor_" data-uid="Oqtane.Infrastructure.LogManager.#ctor(Oqtane.Repository.ILogRepository,Oqtane.Infrastructure.ITenantManager,Microsoft.Extensions.Configuration.IConfigurationRoot,Oqtane.Security.IUserPermissions,Microsoft.AspNetCore.Http.IHttpContextAccessor)">LogManager(ILogRepository, ITenantManager, IConfigurationRoot, IUserPermissions, IHttpContextAccessor)</h4>
+  <h4 id="Oqtane_Infrastructure_LogManager__ctor_Oqtane_Repository_ILogRepository_Oqtane_Infrastructure_ITenantManager_Oqtane_Infrastructure_IConfigManager_Oqtane_Security_IUserPermissions_Microsoft_AspNetCore_Http_IHttpContextAccessor_Oqtane_Repository_IUserRoleRepository_Oqtane_Repository_INotificationRepository_" data-uid="Oqtane.Infrastructure.LogManager.#ctor(Oqtane.Repository.ILogRepository,Oqtane.Infrastructure.ITenantManager,Oqtane.Infrastructure.IConfigManager,Oqtane.Security.IUserPermissions,Microsoft.AspNetCore.Http.IHttpContextAccessor,Oqtane.Repository.IUserRoleRepository,Oqtane.Repository.INotificationRepository)">LogManager(ILogRepository, ITenantManager, IConfigManager, IUserPermissions, IHttpContextAccessor, IUserRoleRepository, INotificationRepository)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LogManager(ILogRepository logs, ITenantManager tenantManager, IConfigurationRoot config, IUserPermissions userPermissions, IHttpContextAccessor accessor)</code></pre>
+    <pre><code class="lang-csharp hljs">public LogManager(ILogRepository logs, ITenantManager tenantManager, IConfigManager config, IUserPermissions userPermissions, IHttpContextAccessor accessor, IUserRoleRepository userRoles, INotificationRepository notifications)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -158,7 +153,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Microsoft.Extensions.Configuration.IConfigurationRoot</span></td>
+        <td><a class="xref" href="Oqtane.Infrastructure.IConfigManager.html">IConfigManager</a></td>
         <td><span class="parametername">config</span></td>
         <td></td>
       </tr>
@@ -172,17 +167,22 @@
         <td><span class="parametername">accessor</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><a class="xref" href="Oqtane.Repository.IUserRoleRepository.html">IUserRoleRepository</a></td>
+        <td><span class="parametername">userRoles</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Oqtane.Repository.INotificationRepository.html">INotificationRepository</a></td>
+        <td><span class="parametername">notifications</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Infrastructure_LogManager_Log_Oqtane_Models_Log_.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.LogManager.Log(Oqtane.Models.Log)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Server/Infrastructure/LogManager.cs/#L105">View Source</a>
-  </span>
+  
+  
   <a id="Oqtane_Infrastructure_LogManager_Log_" data-uid="Oqtane.Infrastructure.LogManager.Log*"></a>
   <h4 id="Oqtane_Infrastructure_LogManager_Log_Oqtane_Models_Log_" data-uid="Oqtane.Infrastructure.LogManager.Log(Oqtane.Models.Log)">Log(Log)</h4>
   <div class="markdown level1 summary"></div>
@@ -208,13 +208,8 @@
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Infrastructure_LogManager_Log_Oqtane_Shared_LogLevel_System_Object_Oqtane_Enums_LogFunction_System_Exception_System_String_System_Object___.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.LogManager.Log(Oqtane.Shared.LogLevel%2CSystem.Object%2COqtane.Enums.LogFunction%2CSystem.Exception%2CSystem.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Server/Infrastructure/LogManager.cs/#L36">View Source</a>
-  </span>
+  
+  
   <a id="Oqtane_Infrastructure_LogManager_Log_" data-uid="Oqtane.Infrastructure.LogManager.Log*"></a>
   <h4 id="Oqtane_Infrastructure_LogManager_Log_Oqtane_Shared_LogLevel_System_Object_Oqtane_Enums_LogFunction_System_Exception_System_String_System_Object___" data-uid="Oqtane.Infrastructure.LogManager.Log(Oqtane.Shared.LogLevel,System.Object,Oqtane.Enums.LogFunction,System.Exception,System.String,System.Object[])">Log(LogLevel, Object, LogFunction, Exception, String, Object[])</h4>
   <div class="markdown level1 summary"></div>
@@ -265,13 +260,8 @@
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Infrastructure_LogManager_Log_Oqtane_Shared_LogLevel_System_Object_Oqtane_Enums_LogFunction_System_String_System_Object___.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.LogManager.Log(Oqtane.Shared.LogLevel%2CSystem.Object%2COqtane.Enums.LogFunction%2CSystem.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Server/Infrastructure/LogManager.cs/#L31">View Source</a>
-  </span>
+  
+  
   <a id="Oqtane_Infrastructure_LogManager_Log_" data-uid="Oqtane.Infrastructure.LogManager.Log*"></a>
   <h4 id="Oqtane_Infrastructure_LogManager_Log_Oqtane_Shared_LogLevel_System_Object_Oqtane_Enums_LogFunction_System_String_System_Object___" data-uid="Oqtane.Infrastructure.LogManager.Log(Oqtane.Shared.LogLevel,System.Object,Oqtane.Enums.LogFunction,System.String,System.Object[])">Log(LogLevel, Object, LogFunction, String, Object[])</h4>
   <div class="markdown level1 summary"></div>
@@ -317,13 +307,8 @@
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Infrastructure_LogManager_Log_System_Int32_Oqtane_Shared_LogLevel_System_Object_Oqtane_Enums_LogFunction_System_Exception_System_String_System_Object___.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.LogManager.Log(System.Int32%2COqtane.Shared.LogLevel%2CSystem.Object%2COqtane.Enums.LogFunction%2CSystem.Exception%2CSystem.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Server/Infrastructure/LogManager.cs/#L46">View Source</a>
-  </span>
+  
+  
   <a id="Oqtane_Infrastructure_LogManager_Log_" data-uid="Oqtane.Infrastructure.LogManager.Log*"></a>
   <h4 id="Oqtane_Infrastructure_LogManager_Log_System_Int32_Oqtane_Shared_LogLevel_System_Object_Oqtane_Enums_LogFunction_System_Exception_System_String_System_Object___" data-uid="Oqtane.Infrastructure.LogManager.Log(System.Int32,Oqtane.Shared.LogLevel,System.Object,Oqtane.Enums.LogFunction,System.Exception,System.String,System.Object[])">Log(Int32, LogLevel, Object, LogFunction, Exception, String, Object[])</h4>
   <div class="markdown level1 summary"></div>
@@ -379,13 +364,8 @@
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Infrastructure_LogManager_Log_System_Int32_Oqtane_Shared_LogLevel_System_Object_Oqtane_Enums_LogFunction_System_String_System_Object___.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.LogManager.Log(System.Int32%2COqtane.Shared.LogLevel%2CSystem.Object%2COqtane.Enums.LogFunction%2CSystem.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Server/Infrastructure/LogManager.cs/#L41">View Source</a>
-  </span>
+  
+  
   <a id="Oqtane_Infrastructure_LogManager_Log_" data-uid="Oqtane.Infrastructure.LogManager.Log*"></a>
   <h4 id="Oqtane_Infrastructure_LogManager_Log_System_Int32_Oqtane_Shared_LogLevel_System_Object_Oqtane_Enums_LogFunction_System_String_System_Object___" data-uid="Oqtane.Infrastructure.LogManager.Log(System.Int32,Oqtane.Shared.LogLevel,System.Object,Oqtane.Enums.LogFunction,System.String,System.Object[])">Log(Int32, LogLevel, Object, LogFunction, String, Object[])</h4>
   <div class="markdown level1 summary"></div>
@@ -447,12 +427,6 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Infrastructure_LogManager.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.LogManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Server/Infrastructure/LogManager.cs/#L14" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

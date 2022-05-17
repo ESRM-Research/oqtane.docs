@@ -1,32 +1,27 @@
 
-- name: User Documentation
+- name: Introduction
   href: index.md
-
-- name: Site Administration
-  href: site-administration/toc.yml
-  homepage: site-administration/
 
 - name: Installation
   href: installation/index.md
-  # href: installation/toc.yml
-  # homepage: installation/
+
+- name: Admin Navigation
+  href: admin-navigation/toc.yml
+  homepage: admin-navigation/
+
+- name: Pages
+  href: pages/toc.yml
+  homepage: pages/
 
 - name: Modules
   href: modules/toc.yml
   homepage: modules/
 
+- name: Site Administration
+  href: site-administration/toc.yml
+  homepage: site-administration/
+
 - name: Host Administration
   href: host-administration/toc.yml
   homepage: host-administration/
 
-- name: Admin Dashboard
-  href: admin-dashboard/toc.yml
-  homepage: admin-dashboard/
-
-- name: Control Panel
-  href: control-panel/toc.yml
-  homepage: control-panel/
-
-#   # topicUid: Article.Docs.Index
-#   href: documentation/toc.yml
-#   homepage: documentation/

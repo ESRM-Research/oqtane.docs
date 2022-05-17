@@ -2,8 +2,17 @@
 - name: Introduction
   href: index.md
 
-- name: Adding Modules
+- name: Adding Modules to a Page
   href: adding-modules.md
 
-- name: Working With Modules
-  href: working-with-modules.md
+- name: Default Modules
+  href: default-modules.md
+
+- name: HTML Editor Module
+  href: htmledit-module.md
+
+- name: Adding Non-Default Modules
+  href: add-ext-modules.md
+
+- name: Creating a New Module
+  href: creating-modules.md

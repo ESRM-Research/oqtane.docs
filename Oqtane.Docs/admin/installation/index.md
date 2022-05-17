@@ -1,5 +1,8 @@
 # Installation
 
+![installationbanner](./assets/installation-banner.png)
+
+
 ## Install an Official Release on IIS
 
 The [Official Oqtane Relases are found on Github](https://github.com/oqtane/oqtane.framework/releases)
@@ -17,7 +20,7 @@ This will trigger a re-install when you run the application which will execute t
 
 ## Install Oqtane for Development
 
-### Oqtane Version 3 (.net 6)
+### Oqtane Version 3 (.NET 6)
 
 1. Install **[.NET 6 SDK](https://dotnet.microsoft.com/download/dotnet/6.0)**
    
@@ -30,7 +33,8 @@ Oqtane works with ALL editions of Visual Studio from Community to Enterprise.
 
 1. Make sure you specify **Oqtane.Server** as the Startup Project and then Run the application.
 
-### Oqtane Version 2 (.net 5)
+### Oqtane Version 2 (.NET 5)
+**Note that Microsoft support for .NET 5 ended on May 8, 2022** 
 
 1. Install the latest [.NET 5 SDK (v5.0.100)](https://dotnet.microsoft.com/download/dotnet/5.0)
 
@@ -46,7 +50,8 @@ you must also install the **.NET desktop development workload**.
 
 1. Make sure you specify Oqtane.Server as the Startup Project and then Run the application.
 
-### Oqtane Version 1 (.net core 3)
+### Oqtane Version 1 (.NET core 3)
+**Note that Microsoft support for .NET 3.1 will end on December 13, 2022** 
 
 1. Install [.NET Core 3.1 SDK (v3.1.300)](https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-3.1.300-windows-x64-installer)
 
