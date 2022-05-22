@@ -37,7 +37,7 @@ This option can increase efficiency and good practices for many situations. Say,
 The text boxes after the drop-downs allow you to set the following fields for the module. 
 
 * **Title** - Set the text that will be displayed directly above the module. This text will override the title of the existing module. If this is left blank then the referenced module's title will be used.
-* **Pane** - Select which content pane you want the module to go inside of. Panes should be visible when the page is in [edit mode](../pages/edit-page.html).
+* **Pane** - Select which content pane you want the module to go inside of. Panes should be visible when the page is in [edit mode](../pages/editing-page.html).
 * **Container** - Select if you would like to have a title displayed above the module or not have one.
 * **Visibility** - Options are "Page Editors Only" or "Same As Page"
 

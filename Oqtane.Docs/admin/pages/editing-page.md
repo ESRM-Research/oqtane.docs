@@ -1,13 +1,13 @@
 # Editing a Single Page
 
-You can edit the page you are viewing if you have the *Host Users* or *Administrators* role. On the upper right corner of the page, you should find a pencil icon. By clicking on the pencil icon, you can edit the content of the current page. This provides a very user-friendly and intuitive approach to managing content. Whenever you want to edit content in Oqtane, just go to the location where the content resides and edit it right there in place.
+You can edit the page you are viewing if you are an [Administrator or Content Editor](../site-administration/role-management.html). On the upper right corner of the page, you should find a pencil icon. By clicking on the pencil icon, you can edit the content of the current page. This provides a very user-friendly and intuitive approach to managing content. Whenever you want to edit content in Oqtane, just go to the location where the content resides and edit it right there in place.
 
 
 ![pencil-edit](./assets/pencil-edit.png)
 
-There are several different aspects to editing the current page. First of all, there are some common features that are available to all modules on a page. The common features are described below under the headings of Managing Modules and Moving Modules. 
+There are different aspects to editing the current page. First of all, there are some common features that are available to all modules on a page. The common features are described below under the headings of Managing Modules and Moving Modules. 
 
-Each module on the page may also have other features for editing as well. For example, the [HTML Editor Module](../modules/htmledit-module.html) is commonly used on pages and includes an Edit button, as highlighted in red in the screenshot below. Notice that the screenshot also displays a reminder for the locations of the available panes when placing modules on a page. The available panes are determined by the template that is used by this page. 
+Each module on the page may also have other features for editing as well. For example, the [HTML Editor Module](../modules/htmledit-module.html) is commonly used on pages and includes an Edit button, as highlighted in red in the screenshot below. Notice that the screenshot also displays a reminder for the locations of the available panes when placing modules on a page. The available panes are determined by the template that is used for this page. 
 
 ![edit-my-page](./assets/edit-my-page.png)
 

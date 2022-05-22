@@ -2,9 +2,6 @@
 - name: Introduction
   href: index.md
 
-- name: Control Panel
-  href: control-panel.md
-  
 - name: Admin Dashboard
   href: admin-dashboard.md
 

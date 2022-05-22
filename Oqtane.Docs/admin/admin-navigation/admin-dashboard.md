@@ -2,8 +2,8 @@
 
 To view the Admin Dashboard, do the following. 
 
-1. Log into an account with either a *Host Users* or *Administrators* role 
-2. Use the [top navigation](./index.html) to select the gear icon in the top right of the page. This should bring up the [Control Panel](../control-panel).
+1. Log into an account as an [Administrator](../site-administration/role-management.html). 
+2. Use the [top navigation](./index.html) to select the gear icon in the top right of the page. This should bring up the Control Panel.
 3. From the Control Panel, click the Admin Dashboard button at the top to bring up the Admin Dashboard window, as shown below. 
 
 <p>

@@ -2,9 +2,6 @@
 - name: Introduction
   href: index.md
 
-- name: Content Editor
-  href: content-editor.md
-
 - name: File Management
   href: file-management.md
 
