@@ -29,9 +29,6 @@
 - name: User Management
   href: user-management.md
 
-- name: User Profile
-  href: user-profile.md
-
 - name: Visitor Management
   href: visitor-management.md
 

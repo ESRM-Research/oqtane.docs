@@ -2,12 +2,23 @@
 
 ![siteadminbanner](./assets/site-admin-banner.png)
 
-Site administration in Oqtane is the proccesses, tasks, and features that it takes to effectively run a website in Oqtane.
-This includes things like managing users, security, site settings, configurations, and content using the features available to them, in both the [control panel](../control-panel/index.md) and the [admin dashboard](../admin-dashboard/index.md).
+Site administration involves managing a given website in the Oqtane instance. Icons for the tasks of a [Site Administrator](./role-management.html) are displayed in the [Admin Dashboard](../admin-navigation/admin-dashboard.html). These tasks are described more fully in the following sections. 
 
-![control-panel](./assets/control-panel.png)
+* **[File Management](./file-management.md)** - Offers folder add and edit capabilities. Offers file upload, delete and edit capabilities. 
+* **[Language Management](./language-management.md)** - Manages language translations used on pages of the site.
+* **[Page Management](./page-management.md)** - Lists all the website pages and offers add, edit, and delete capabilities.  
+* **[Profile Management](./profile-management.md)** - Specifies custom fields for the user profiles.
+* **[Recycle Bin](./recycle-bin.md)** - Offers features similar to the recycle bin on a desktop operating system. Used for deleted pages and modules. 
+* **[Role Management](./role-management.md)** - Specifies custom roles and role permissions for creating and editing pages and modules. 
+* **[Site Settings](./site-settings.md)** - Sets the website name, logo, favicon, theme, SMTP host, progressive web app settings, and more.
+* **[Url Mappings](./url-mappings.md)** - Displays a list of mapped URLs or broken URLs.
+* **[User Management](./user-management.md)** - Lists all the website users and offers add, edit, delete, and role setting capabilities, a global search function, and editable user profiles. 
+* **[Visitor Management](./visitor-management.md)** - Displays records of login metadata for all website visitors.
 
-![admin-dash](./assets/admin-dash.png)
+
+### Administration Flexibility
+
+A [Site Administrator](./role-management.html) has access to all of the features linked above when they are given the *Administrators* role. However it is also possible to create 
 
 Site administration can take on many forms, but there are two use cases that you should be familiar with. First, there's site administration as defined by Oqtane.You enable this by adding the Administrators security role as one of the assigned roles for the account. That way, all “admin” features will be available for that user across that specific site.
 

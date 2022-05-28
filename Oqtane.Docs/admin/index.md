@@ -5,7 +5,7 @@
 Oqtane has a robust set of options for administration of the pages, modules, sites and the overall host instance. Documentation for Oqtane Administration is broken down into the following sections. 
 
 * **[Installation](./installation)** - How to install Oqtane
-* **[Admin Navigation](./admin-navigation)** - A good place to start if you are trying to figure out how to navigate through the different admin options
+* **[Admin Navigation](./admin-navigation)** - A good place to start if you are trying to figure out how to navigate through the different admin options. This includes an overview of the [Control Panel](./admin-navigation) and the [Admin Dashboard](./admin-navigation/admin-dashboard.html). 
 * **[Pages](pages)** - How to edit and manage a single page
 * **[Modules](modules)** - An overview of modules and how they are created, managed, and used in pages
 * **[Site Administration](./site-administration)** - A site member with the *Administrator* role can manage a given site within the Oqtane instance. Privileges include the ability to manage [site settings](./site-administration/site-settings.html), [pages](./site-administration/page-management.html), [users](./site-administration/user-management.html), [profiles](./site-administration/profile-management.html), [roles](./site-administration/role-management.html), [files](./site-administration/file-management.html), [visitors](./site-administration/visitor-managment.html), [languages](./site-administration/languages.html), the [recycle bin](./site-administration/recycle-bin.html), and [url mappings](./site-administration/url-mappings.html). 

@@ -18,7 +18,7 @@ The admin modules include the following.
 * **[Languages](../site-administration/language-management.html)** - Language management
 * **Login** - Show login button or login status if someone is already logged in
 * **[Logs](../host-administration/event-log.html)** - Event Logs 
-* **ModuleDefinitions** - 
+* **[ModuleDefinitions](../host-administration/module-management.html)** - displays a list of all of the module names, version number, whether they are in use or not and an Edit button.
 * **[Modules](../host-administration/module-management.html)** - Module management
 * **[Pages](../site-administration/page-management.html)** - Page management
 * **[Profiles](../site-administration/profile-management.html)** - Profile management to set which fields are used in a profile
